@@ -1,0 +1,15 @@
+spring:
+
+  data:
+    rest:
+      basePath: '/api'
+
+  datasource:
+    url: 'jdbc:h2:mem:tmp_datastore;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE'
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
