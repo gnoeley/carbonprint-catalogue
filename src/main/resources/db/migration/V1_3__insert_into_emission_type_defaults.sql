@@ -1,0 +1,1 @@
+INSERT INTO emission_type(id) VALUES ('CO2');

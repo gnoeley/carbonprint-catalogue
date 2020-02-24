@@ -1,0 +1,1 @@
+INSERT INTO units(id) VALUES ('KG');
