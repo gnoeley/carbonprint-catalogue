@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class CatalogueApplication
 
 fun main(args: Array<String>) {
-	runApplication<CatalogueApplication>(*args)
+    runApplication<CatalogueApplication>(*args)
 }
