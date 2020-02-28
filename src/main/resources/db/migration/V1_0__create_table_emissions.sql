@@ -1,9 +1,11 @@
 CREATE TABLE emission_type(
-    id CHAR(5) NOT NULL
+    id CHAR(5) NOT NULL,
+    CONSTRAINT pk_emission_type PRIMARY KEY (id)
 );
 
 CREATE TABLE units(
-    id CHAR(3) NOT NULL
+    id CHAR(3) NOT NULL,
+    CONSTRAINT pk_units PRIMARY KEY (id)
 );
 
 CREATE TABLE emissions (
