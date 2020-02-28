@@ -7,7 +7,7 @@ CREATE TABLE units(
 );
 
 CREATE TABLE emissions (
-    id SERIAL PRIMARY KEY,
+    id SERIAL,
     type CHAR(3) NOT NULL,
     unit CHAR(3) NOT NULL,
     value REAL NOT NULL,
